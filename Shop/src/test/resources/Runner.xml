@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Webstaurantstore Test suite" parallel="false">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="83.0"/>
+    <parameter name="url" value="https://www.webstaurantstore.com"/>
+    <parameter name="platform" value="Windows"/>
+
+    <test name="Shop">
+        <classes>
+            <class name="TestPages.TestShop"/>
+        </classes>
+    </test>
+
+</suite>
